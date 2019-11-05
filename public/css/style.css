@@ -11964,4 +11964,8 @@ readers do not read off random characters that represent icons */
 .fab {
   font-family: 'Font Awesome 5 Brands'; }
 
+.banner {
+  position: absolute;
+  opacity: 0.6; }
+
 /*# sourceMappingURL=style.css.map */
