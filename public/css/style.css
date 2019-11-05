@@ -11964,8 +11964,50 @@ readers do not read off random characters that represent icons */
 .fab {
   font-family: 'Font Awesome 5 Brands'; }
 
-.banner {
+header {
+  background-image: url("../../public/images/banner1.jpg");
+  background-repeat: none;
+  background-color: black;
+  opacity: 0.5;
+  background-size: cover;
+  height: 100vh; }
+
+.carousel {
+  height: 80vh;
+  min-height: 100px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+h1 {
+  font-family: "Caveat", cursive; }
+
+.sectionn {
+  background-image: url("../../public/images/main_bg.jpg");
+  background-repeat: none; }
+
+.bottom {
   position: absolute;
-  opacity: 0.6; }
+  right: 0px;
+  bottom: 0px; }
+
+.left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px; }
+
+.right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px; }
+
+.hello {
+  position: absolute;
+  left: 0px;
+  bottom: 0px; }
 
 /*# sourceMappingURL=style.css.map */
