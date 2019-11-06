@@ -4,24 +4,74 @@ $fa-font-path:"../../node_modules/@fortawesome/fontawesome-free/webfonts"
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss"
 @import "../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss"
 
-header
-    background-image: url("../../public/images/banner1.jpg")
-    background-repeat: none
-    background-color: black
-    opacity: 0.5
-    background-size: cover
-    height: 100vh
-    
+
+.banner
+
+    position: absolute
+    z-index: -1
+    filter: brightness(30%)
+    -webkit-filter: brightness(30%)
+nav
+
+    display: flex
+    lex-direction: row
+    align-items: center
+    margin-left: 150px
+.ul1
+
+    list-style: none
+    display: flex
+    flex-direction: row
+    margin: 10px
+    border-top: 2px white solid
+    border-bottom: 2px white solid
+.li1
+
+    margin: 10px
+a
+    color: white
+
+    &:hover
+
+        background-color: red
+        padding: 13px
+.logo
+
+    flex-direction: row
+        
+.ul2
+
+    list-style: none
+    display: flex
+    flex-direction: row
+    margin: 10px
+    border-top: 3px white solid
+    border-bottom: 3px white solid
+.li2
+
+    margin: 10px
+a
+
+    color: white
+
+    &:hover
+
+        background-color: red
+        padding: 13px
+
+.carousel-inner
+
+    padding: 200px
+    text-align: center
+
+.carouse-item
+
+h1
+
+        font-size: 10px
     
 
-.carousel
-    height: 80vh
-    min-height: 100px
-    background: no-repeat center center scroll
-    -webkit-background-size: cover
-    -moz-background-size: cover
-    -o-background-size: cover
-    background-size: cover
+
 
 h1
     font-family: 'Caveat',cursive
@@ -31,6 +81,7 @@ h1
 .sectionn 
     background-image: url("../../public/images/main_bg.jpg")
     background-repeat: none
+    position: relative
     
 .bottom
     position: absolute
@@ -39,15 +90,15 @@ h1
 
 .left
     position: absolute
-    top: 8px
-    left: 16px
-    font-size: 18px
+    top: 0px
+    left: 0px
+    
     
 .right
     position: absolute
-    top: 8px
-    right: 16px
-    font-size: 18px   
+    top: 0px
+    right: 0px
+      
 
 .hello
     position: absolute
@@ -55,6 +106,9 @@ h1
     bottom: 0px
      
 
-  
+.team
+    background-image: url("../../public/images/team_background.jpg")
+    
+
     
  
