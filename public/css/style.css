@@ -12021,6 +12021,21 @@ h1 {
 
 .form {
   background-image: url("../../public/images/book_table_bg.jpg");
-  border-radius: 10px; }
+  border-radius: 5px; }
+
+.btn {
+  border-radius: 13px; }
+
+.yes {
+  position: relative; }
+
+.over {
+  border-radius: 8px; }
+
+.clients {
+  background-image: url("../../public/images/testimonials_background.jpg"); }
+
+.TT {
+  border-radius: 8px; }
 
 /*# sourceMappingURL=style.css.map */
